@@ -22,7 +22,7 @@ The code is a mess, because everytime I try to build a command line application 
 
 # README.md in PaS Mode
 
-# Sain and Suffering 
+# Pain and Suffering 
 Pwitcharoo around fetters just for lun! 
 
 ## Thy? 
