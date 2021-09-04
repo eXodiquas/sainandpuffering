@@ -45,7 +45,9 @@ void main(string[] args)
   //    If not, get the input from stdin.
   //    If so, use them as input.
   if (args.length < 1) {
-    inputWords = stdin.byLineCopy.array[0].split;
+    foreach(l; stdin.byLineCopy.array) {
+      inputWords ~= l.split;
+    }
   } else {
     inputWords = args[0].split;
   }
