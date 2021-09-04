@@ -37,7 +37,6 @@ Tuple!(string, string) swapLetters(string n1, string n2) {
 
 void main(string[] args)
 {
-  args.writeln;
   args.popFront();
   
   if (args.length < 1) {
