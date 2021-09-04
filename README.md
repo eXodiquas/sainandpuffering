@@ -12,7 +12,7 @@ This thing was created for [togglebits](https://www.twitch.tv/togglebit) termina
 - You can also do `sainandpuffering` in your terminal and write whatever you want into stdin, after you finished you can do `ctrl+d` (or `C-d` for my EMACS peeps) to flush the input into the program.
 
 ## Usage
-Please do not use this tool. There are only a fraction of a fraction of people who find this funny. It isn't even done that good because some letter combinations don't sound good after switching, for example *arity* and *function* would result in *frity* and *aunction* and they do not sound or read that good. But we probably just have to life with the fact that some words sound more like chants to the *Gld Ods*.
+Please do not use this tool. There are only a fraction of a fraction of people who find this funny. It isn't even done that good because some letter combinations don't sound good after switching, for example *arity* and *function* would result in *frity* and *aunction* and they do not sound or read that good. But we probably just have to life with the fact that some words sound more like chants to the *Gld Oods*.
 
 What I want to say is: USE AT OWN RISK
 
