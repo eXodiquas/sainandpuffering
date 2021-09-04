@@ -16,5 +16,10 @@ Please do not use this tool. There are only a fraction of a fraction of people w
 
 What I want to say is: USE AT OWN RISK
 
+## Roadmap
+I just realized the path to the dictionary is hardcoded, so I should probably fix this problem by introducing some kind of environment file.
+
+- [ ] .env file 
+
 ## Code Style
 The code is a mess, because everytime I try to build a command line application my code for the front-end gets spaghettificated, nobody knows why. It just happens.
