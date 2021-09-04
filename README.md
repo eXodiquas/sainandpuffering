@@ -1,4 +1,4 @@
-# A Sain and Puffering
+# Sain and Puffering
 Switcharoo around letters just for fun!
 
 ## Why?
