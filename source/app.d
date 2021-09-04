@@ -55,7 +55,8 @@ void main(string[] args)
     return;
   }
   // 4. To the mambo jambo.
-  string[] nouns = readText("/home/exodiquas/Repositories/sainandpuffering/assets/en-nouns.txt").splitLines;
+  string path = readText ("./environment.env").chomp;
+  string[] nouns = readText(path).splitLines;
 
   Tuple!(string, int)[] inputmap;
 
