@@ -11,7 +11,8 @@ bool isNoun(string s, string[] nouns) {
   return nouns.canFind(singular.toLower)
     || nouns.canFind(plural.toLower)
     || singular.startsWith!(a => std.ascii.isUpper(a))
-    || plural.startsWith!(a => std.ascii.isUpper(a));
+    || plural.startsWith!(a => std.ascii.isUpper(a))
+    || singular.endsWith("ing");
 }
 
 Tuple!(string, string) swapLetters(string n1, string n2) {
@@ -37,16 +38,24 @@ Tuple!(string, string) swapLetters(string n1, string n2) {
 
 void main(string[] args)
 {
+  // 1. Clear executable name from args array.
   args.popFront();
-  
+  string[] inputWords;
+  // 2. Check if there are command line arguments.
+  //    If not, get the input from stdin.
+  //    If so, use them as input.
   if (args.length < 1) {
-    "No text to spoonerismify. :(".writeln;
+    inputWords = stdin.byLineCopy.array[0].split;
+  } else {
+    inputWords = args[0].split;
+  }
+  // 3. If no input was provided at all, print sad message. :(
+  if(inputWords.length == 0) {
+    "No words to switcharino! :(".writeln;
     return;
   }
-
+  // 4. To the mambo jambo.
   string[] nouns = readText("/home/exodiquas/Repositories/sainandpuffering/assets/en-nouns.txt").splitLines;
-
-  string[] inputWords = args[0].split;
 
   Tuple!(string, int)[] inputmap;
 
@@ -54,6 +63,10 @@ void main(string[] args)
     if(w.isNoun(nouns)) {
       inputmap ~= tuple(w, i.to!int); 
     }
+  }
+
+  if (inputmap.length % 2 != 0) {
+    inputmap.popFront();
   }
 
   foreach(el; inputmap.slide(2, 2).array) {
@@ -65,6 +78,6 @@ void main(string[] args)
     inputWords[el[0][1]] = results[0];
     inputWords[el[1][1]] = results[1];
   }
-
+  // 5. Print the results.
   inputWords.joiner(" ").writeln;
 }
