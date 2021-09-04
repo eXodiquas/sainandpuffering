@@ -8,11 +8,11 @@ This thing was created for [togglebits](https://www.twitch.tv/togglebit) termina
 - Get `dub` for your system, not sure if you have to get `dmd` as a D compiler aswell, or if `dub` depends on it.
 - 'cd' into the source directory of this repository
 - 'dub run -- "Your text to switcharoo, for sain and puffering.'
-- You can also echo pipe from the terminal like this: `echo "Hello darkness my old friend!" | sainandpuffering` to do suffer even more.
-- You can also just do `sainandpuffering` in your terminal and write whatever you want into stdin, after you finished you can just do `ctrl+d` (or `C-d` for my EMACS peeps) to flush the input into the program.
+- You can also echo pipe from the terminal like this: `echo "Hello darkness my old friend!" | sainandpuffering` to sufferoni even more.
+- You can also do `sainandpuffering` in your terminal and write whatever you want into stdin, after you finished you can do `ctrl+d` (or `C-d` for my EMACS peeps) to flush the input into the program.
 
 ## Usage
-Please do not use this tool. There are only a fraction of a fraction of people who find this funny. It isn't even done that good because some letter combinations don't switch that good, for example *shoe* and *room* would result in *rhoe* and *soom* and the first one doesn't read that good imo.
+Please do not use this tool. There are only a fraction of a fraction of people who find this funny. It isn't even done that good because some letter combinations don't sound good after switching, for example *arity* and *function* would result in *frity* and *aunction* and they do not sound or read that good. But we probably just have to life with the fact that some words sound more like chants to the *Gld Ods*.
 
 What I want to say is: USE AT OWN RISK
 
