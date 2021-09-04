@@ -15,3 +15,6 @@ This thing was created for [togglebits](https://www.twitch.tv/togglebit) termina
 Please do not use this tool. There are only a fraction of a fraction of people who find this funny. It isn't even done that good because some letter combinations don't switch that good, for example *shoe* and *room* would result in *rhoe* and *soom* and the first one doesn't read that good imo.
 
 What I want to say is: USE AT OWN RISK
+
+## Code Style
+The code is a mess, because everytime I try to build a command line application my code for the front-end gets spaghettificated, nobody knows why. It just happens.
