@@ -53,7 +53,7 @@ void main(string[] args)
   }
   // 3. If no input was provided at all, print sad message. :(
   if(inputWords.length == 0) {
-    "No words to switcharino! :(".writeln;
+    "No words to swaparooo! :(".writeln;
     return;
   }
   // 4. To the mambo jambo.
